@@ -1,0 +1,64 @@
+extends layout
+
+block content
+  .w3-card-4
+    header.w3-container.w3-teal
+      h1 Registo [id de Registo: #{r._id}] #[a(href="/") VOLTAR]
+    .w3-container
+      table.w3-table-all.w3-hoverable
+        tr
+          th Id
+          td= r.Id
+        tr
+          th Número de Registo
+          td= r.NúmerodeRegisto
+        tr
+          th Código de rua
+          td= r.Códigoderua
+        tr
+          th Rua
+          td= r.Rua
+        tr
+          th Local
+          td= r.Local
+        tr
+          th Freguesia
+          td= r.Freguesia
+        tr
+          th Espécie
+          td= r.Espécie
+        tr
+          th Nome Científico
+          td= r.NomeCientífico
+        tr
+          th Origem
+          td= r.Origem
+        tr
+          th Data de Plantação
+          td= r.DatadePlantação
+        tr
+          th Estado
+          td= r.Estado
+        tr
+          th Caldeira
+          td= r.Caldeira
+        tr
+          th Tutor
+          td= r.Tutor
+        tr
+          th Implantação
+          td= r.Implantação
+        tr
+          th Gestor
+          td= r.Gestor
+        tr
+          th Data de actualização
+          td= r.Datadeactualização
+        tr
+          th Númerodeintervenções
+          td= r.Númerodeintervenções
+
+    footer.w3-container.w3-teal
+      h5 Generated for ENGWEB2023-Normal
+
+    
